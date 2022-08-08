@@ -610,7 +610,7 @@ function initSync(bytes) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('music-theory-d5db682ffd631980_bg.wasm', import.meta.url);
+        input = new URL('music-theory-9b69543189e3e724_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
